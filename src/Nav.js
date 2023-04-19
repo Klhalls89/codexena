@@ -1,9 +1,9 @@
 import './App.css';
 import codexena_sword from './assets/codexena_sword.png'
 
-function App() {
+function Nav() {
   return (
-    <div className="App">
+    <div className="Nav">
       <header className="App-header">
         <img src={codexena_sword} />
       </header>
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Nav;

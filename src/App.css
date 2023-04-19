@@ -1,6 +1,11 @@
 header {
-  height: 25vh;
-  background-image: url("./assets/pexels.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: white;
+  display: flex;
+  height: 17vh;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 15vh;
 }

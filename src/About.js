@@ -1,7 +1,7 @@
 import './App.css';
 import codexena_sword from './assets/codexena_sword.png'
 
-function App() {
+function About() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
