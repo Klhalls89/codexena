@@ -1,1 +1,27 @@
 
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main {
+  background-color: white;
+  height: 80vh;
+  width: 70vw;
+  margin-top: 10vh;
+  border-radius: 3px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5vh;
+  font-family: American Typewriter, serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.pink {
+  color: #D63A92;
+}

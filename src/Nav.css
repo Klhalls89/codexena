@@ -23,10 +23,19 @@ h1 {
   bottom: 10px;
 }
 
-.pink {
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+
+a:hover {
   color: #D63A92;
 }
 
-a {
-  margin: 10px;
+a:active {
+  color: #D63A92;
+  text-decoration: underline;
 }
