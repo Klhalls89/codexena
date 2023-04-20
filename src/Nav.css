@@ -1,0 +1,32 @@
+header {
+  background-color: white;
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: American Typewriter, serif;
+  font-weight: normal;
+  font-size: 8rem;
+}
+
+.hilt {
+  font-size: 6rem;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 10px;
+}
+
+.pink {
+  color: #D63A92;
+}
+
+a {
+  margin: 10px;
+}

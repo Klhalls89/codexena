@@ -1,12 +1,12 @@
 import Nav from './Nav.js'
 
-function About() {
+function Resources() {
   return (
     <div className="App">
       <Nav />
-      <h2>About</h2>
+      <h2>Resources</h2>
     </div>
   );
 }
 
-export default About;
+export default Resources;

@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import About from './About';
+import Resources from './Resources'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -12,8 +14,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}/>
-      <Route path="/about" element={<App />}/>
-      <Route path="/learning" element={<App />}/>
+      <Route path="/about" element={<About />}/>
+      <Route path="/resources" element={<Resources/>}/>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>
