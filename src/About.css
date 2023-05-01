@@ -3,16 +3,20 @@ p {
   font-size: 20px;
   display: inline;
   margin: 10px;
+  padding: 0;
   line-height: 1.6;
 }
 
 .pDiv {
-    margin: 5vh;
-    display: flex;
-    align-items: top;
+    margin: 10px;
 }
 
 img {
   border-radius: 3px;
   height: 320px;
+  display: inline;
+  float: left;
+  margin: 0 10px;
+  padding: 0;
+  width: 244px;
 }

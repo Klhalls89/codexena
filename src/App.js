@@ -6,6 +6,13 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <div className="mainDiv">
+        <main>
+          <h2><span className="pink">Hom</span>e</h2>
+          <div className="videoDiv">
+          </div>
+        </main>
+      </div>
     </div>
   );
 }

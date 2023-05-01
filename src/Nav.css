@@ -39,3 +39,45 @@ a:active {
   color: #D63A92;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1020px) {
+  header {
+    height: 15vh;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  .hilt {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  header {
+    height: 12.5vh;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .hilt {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  header {
+    height: 10vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .hilt {
+    font-size: 1rem;
+    bottom: 5px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
