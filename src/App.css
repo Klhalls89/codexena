@@ -1,3 +1,6 @@
+.App {
+  background: #ECECEC;
+}
 
 .mainDiv {
   display: flex;
@@ -23,4 +26,18 @@ h2 {
 
 .pink {
   color: #D63A92;
+}
+
+@media screen and (max-width: 530px) {
+  main {
+    width: 80vw;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    width: 90vw;
+    margin-top: 10px;
+  }
 }

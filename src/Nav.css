@@ -1,7 +1,10 @@
-header {
-  background-color: white;
-  display: flex;
+.Nav {
+  background: #FFF;
   height: 20vh;
+}
+
+.App-header {
+  display: flex;
   flex-direction: column;
 }
 
@@ -14,6 +17,7 @@ h1 {
   font-family: American Typewriter, serif;
   font-weight: normal;
   font-size: 8rem;
+  margin: 0;
 }
 
 .hilt {
@@ -41,7 +45,7 @@ a:active {
 }
 
 @media screen and (max-width: 1020px) {
-  header {
+  .Nav {
     height: 15vh;
   }
   h1 {
@@ -53,7 +57,7 @@ a:active {
 }
 
 @media screen and (max-width: 777px) {
-  header {
+  .Nav {
     height: 12.5vh;
   }
   h1 {
@@ -65,8 +69,9 @@ a:active {
 }
 
 @media screen and (max-width: 530px) {
-  header {
-    height: 10vh;
+  .Nav {
+    height: 8vh;
+    margin-bottom: 10px;
   }
   h1 {
     font-size: 2rem;
@@ -77,6 +82,17 @@ a:active {
   }
   nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Nav {
+    height: 20vh;
+    margin-bottom: 10px;
+  }
+  nav {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }

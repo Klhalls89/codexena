@@ -20,3 +20,16 @@ img {
   padding: 0;
   width: 244px;
 }
+
+@media screen and (max-width: 530px) {
+  .pDiv {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+  }
+  img {
+    display: block;
+    float: none;
+  }
+}

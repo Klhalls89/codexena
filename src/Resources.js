@@ -12,6 +12,8 @@ function Resources() {
           <div className="videoDiv">
             <p>Videos</p>
             <YouTube videoId="OD6zgzd2NQc" />
+            <br/>
+            <YouTube videoId="6mg4kfjp_qU" />
           </div>
         </main>
       </div>
