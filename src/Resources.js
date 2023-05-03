@@ -14,6 +14,9 @@ function Resources() {
             <YouTube videoId="OD6zgzd2NQc" />
             <br/>
             <YouTube videoId="6mg4kfjp_qU" />
+            <br/>
+            <a href="https://www.youtube.com/@c0dexena">Visit my YouTube!</a>
+            <p>email me: codexenashow@gmail.com</p>
           </div>
         </main>
       </div>

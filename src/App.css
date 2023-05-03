@@ -1,5 +1,7 @@
 .App {
   background: #ECECEC;
+  height: 100%;
+  min-height: 100vh
 }
 
 .mainDiv {
@@ -13,7 +15,9 @@ main {
   background-color: white;
   width: 70vw;
   margin-top: 10vh;
+  margin-bottom: 10vh;
   border-radius: 3px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -28,16 +32,19 @@ h2 {
   color: #D63A92;
 }
 
-@media screen and (max-width: 530px) {
+.editingPic {
+  width: auto;
+}
+
+@media screen and (max-width: 965px) {
   main {
-    width: 80vw;
+    width: 90vw;
     margin-top: 10px;
   }
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 735px) {
   main {
-    width: 90vw;
+    width: 95vw;
     margin-top: 10px;
   }
 }
